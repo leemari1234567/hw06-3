@@ -1,0 +1,48 @@
+/*
+#box{
+    width: 100px;
+    height: 100px;
+    background: #1fc3ff;
+}
+*/
+
+
+body{
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 767px) {
+    body{
+        background: #e05959;
+         font-size: 50px;
+        transition: 1s;
+    }
+}
+@media (max-width: 480px) {
+    body{
+        background: #ffe838;
+        transition: 1s;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    body{
+        background: #d4e863;
+        transition: 1s;
+    }
+}
+@media (min-width: 980px) {
+    body{
+        background: #57d1ef;
+        transition: 1s;
+    }
+}
+@media (min-width: 1200px) {
+    body{
+        background: #e57bc4;
+        transition: 1s;
+        font-size: 200px;
+        color: white;
+    }
+}
